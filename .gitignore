@@ -1,0 +1,35 @@
+# Go 编译产物
+file_comparer
+file_comparer.exe
+delEmptyDir
+delEmptyDir.exe
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# 测试与覆盖率
+coverage.txt
+coverage.html
+
+# Go 工作区
+go.work
+go.work.sum
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 运行时生成的报告与日志
+*.csv
+*.log
